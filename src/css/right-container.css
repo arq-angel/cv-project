@@ -1,0 +1,95 @@
+.right-container {
+    background-color: #fff;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-header {
+    height: 12rem;
+    background-color: #0e374e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.resume-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+.resume-header-additional-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.resume-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.resume-header-additional-details p {
+    font-weight: bold;
+}
+
+.resume-education-container, .resume-experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 80%;
+}
+
+.resume-education-title, .resume-experience-title {
+    width: 100%;
+    color: #0e374e;
+    background-color: rgba(14, 55, 78, .07);
+    text-align: center;
+    padding: 0;
+}
+
+.resume-education-title h2, .resume-experience-title h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.resume-education-details, .resume-experience-details {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.resume-education-details p, .resume-experience-details p {
+    margin: 0;
+}
+
+.bold-heading {
+    font-weight: bold;
+}
+
+@media(max-width: 800px) {
+    .resume-header {
+        height: 15rem;
+        justify-content: start;
+    }
+
+    .resume-header-additional-details {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .resume-header-additional-details p {
+        margin: 0.25rem;
+    }
+}
