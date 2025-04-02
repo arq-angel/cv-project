@@ -1,6 +1,6 @@
 import "./app.css";
-import LeftContainer from "./LeftContainer.jsx";
-import RightContainer from "./RightContainer.jsx";
+import LeftContainer from "./components/LeftContainer.jsx";
+import RightContainer from "./components/RightContainer.jsx";
 import {useState} from "react";
 
 function App() {

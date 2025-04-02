@@ -1,4 +1,4 @@
-import "./css/right-container.css";
+import "../styles/right-container.css";
 
 
 function RightContainer({personalDetails, educationDetails, experienceDetails}) {

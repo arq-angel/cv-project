@@ -1,4 +1,4 @@
-import "./css/left-container.css";
+import "../styles/left-container.css";
 
 function LeftContainer({personalDetails, educationDetails, experienceDetails, handlePersonalDetailsChange, handleEducationDetailsChange, handleExperienceDetailsChange, clearDetails}) {
 
